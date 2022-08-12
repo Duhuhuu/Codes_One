@@ -1,0 +1,691 @@
+
+
+@media only screen and (min-width: 980px){
+
+
+    .msgTxt{
+    
+        /* Encriptador - 1 Desktop */
+        
+        position: relative;
+        width: 1390px;
+        height: 1000px;
+        
+        /* Light blue/light-blue-100 */
+        
+        background: #cbd6ff;
+    }
+     
+     .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+            /* Vector */
+          width: 150px;
+          height: 150px;
+          position: absolute;
+          left: 0%;
+          right: 100.00%;
+          top: 0%;
+          bottom: 0%;
+          
+          /* Dark blue/dark-blue-300 */   
+     }
+    
+     .imgLogo{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        
+        position: absolute;
+        width: 120px;
+        height: 48px;
+        left: 40px;
+        top: 40px;
+    }
+    
+    
+    .exclama{
+        /* Frame 1 */
+        
+        
+        /* Auto layout */
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        
+        position: absolute;
+        width: 229px;
+        height: 18px;
+        left: 240px;
+        top: 851px;
+        
+       
+    }
+    .txtLeyenda{
+    
+        /* Auto layout */
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        
+        position: absolute;
+        width: 229px;
+        height: 18px;
+        left: 240px;
+        top: 0px;
+        
+        }
+    
+    
+    
+        .input-texto_texto{
+            /* Ingrese el texto aqui */
+            display: flex;
+            position: absolute;
+            width: 500px;
+            height: 98px;
+            left: 290px;
+            top: 168px;
+            
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 70%;
+            /* identical to box height, or 48px */
+            
+            
+            /* Dark blue/dark-blue-300 */
+            background-color: #cbd6ff;; 
+            border: 0;
+            color: #0A3871;
+        }
+        
+    
+        .mensajes{
+        
+            /* Auto layout */
+            
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 16px;
+            
+            position: absolute;
+            width: 336px;
+            height: 122px;
+            left: 1020px;
+            top: 619px;
+            
+        }
+    
+        .bttons{
+            /* Auto layout */
+            /* Auto layout */
+            
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 24px;
+            
+            position: absolute;
+            width: 680px;
+            height: 67px;
+            left: 240px;
+            top: 885px;
+            
+            }
+            
+    
+    
+    .rectangulo {
+        position: absolute;
+        width: 360px;
+        height: 994px;
+        left: 1000px;
+        top: 0px;
+        
+        /* White */
+        
+        background: #c3cbff;
+        /* shadow */
+        
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+    
+    
+
+
+    
+    
+    .txtMsg{
+    
+        width: 336px;
+        height: 58px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        /* or 29px */
+        
+        text-align: center;
+        
+        /* Gray/gray-500 */
+        
+        color: #343A40;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        
+    
+    }
+    
+    
+    
+    .text-input-salida{
+        /* Ningún mensaje fue encontrado */
+    
+    
+    width: 336px;
+    height: 58px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    
+    text-align: center;
+    
+    /* Gray/gray-500 */
+    
+    color: #343A40;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+ 
+    
+    .txtEncryp{
+    
+        /* Ingresa el texto que desees encriptar o desencriptar. */
+    
+    
+    width: 336px;
+    height: 48px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    text-align: center;
+    
+    /* Gray/gray-400 */
+    
+    color: #495057;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+  
+    
+    
+    .msgtxt{
+    width: 336px;
+    height: 58px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    
+    text-align: center;
+    
+    /* Gray/gray-500 */
+    
+    color: #343A40;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+
+    .btn1{
+    /* Button */
+    
+    
+    width: 280px;
+    height: 19px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+    /* White */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    
+    width: 328px;
+    height: 67px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 24px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    .btn2{
+    /* Button */
+    
+    width: 280px;
+    height: 19px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #0A3871;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    
+    width: 328px;
+    height: 67px;
+    
+    /* Light gray */
+    
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+    
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+     
+    }
+    
+    
+    
+    .munieco{
+        display: flex;
+        width: 310px;
+        height: 390px;
+    
+    
+    }
+
+}
+
+
+@media only screen and (min-width: 360px){
+
+.imgLogo{
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+
+
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+left: 0%;
+
+top: 0%;
+
+}
+
+.bodyy{
+
+  
+    /* Encriptador - 1 Celular */
+position: relative;
+width: 375px;
+height: 823px;
+
+/* Light blue/light-blue-100 */
+background: #eaecf0;
+}
+
+
+
+.bttons{
+/* Frame 3 */
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 343px;
+height: 158px;
+left: 16px;
+top: 485px;
+}
+
+.btn1{
+/* Button */
+
+
+width: 295px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 343px;
+height: 67px;
+
+/* Dark blue/dark-blue-300 */
+
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.btn2{
+
+/* Button */
+width: 295px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 343px;
+height: 67px;
+
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+
+.mensajes{
+
+    /* Frame 5 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 32px;
+
+position: absolute;
+width: 327px;
+height: 186px;
+left: 24px;
+top: 707px;
+
+/* White */
+
+background: #FFFFFF;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+
+.text-input-salida{
+    /* Ningún mensaje fue encontrado */
+
+
+width: 263px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* or 29px */
+
+text-align: center;
+
+/* Gray/gray-500 */
+
+color: #343A40;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.textEncryp{
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+
+
+width: 263px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+text-align: center;
+
+/* Gray/gray-400 */
+
+color: #495057;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.munieco{
+    /* visibility: hidden; */
+}
+
+.rectangulo{
+    /* visibility: hidden; */
+
+}
+
+.txtLeyenda{
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 229px;
+height: 18px;
+left: 16px;
+top: 451px;
+}
+.input-texto_texto1{
+    /* Ingrese el texto aqui */
+
+
+position: absolute;
+width: 343px;
+height: 48px;
+left: 16px;
+top: 152px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #59789d;
+}
+
+}
